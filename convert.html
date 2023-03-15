@@ -7,7 +7,190 @@
 <body>
 
 <script>
-    // TODO: Your JavaScript implementation for temperature conversion goes here.
+
+function convertTemperature(temperature, fromUnit, toUnit) {
+  if (fromUnit === "celsius" && toUnit === "fahrenheit") 
+    return (temperature * 9/5) + 32;
+ 
+}
+
+let temperature = 35;
+let fromUnit = "celsius";
+let toUnit = "fahrenheit";
+
+let result = convertTemperature(temperature, fromUnit, toUnit);
+
+console.log(result+ toUnit);
+
+
+
+function convertTemperature1(temperature1, fromUnit1, toUnit1) {
+  if (fromUnit1 === "celsius" && toUnit1 === "kelvin") {
+    return temperature1 + 273.15;
+  }
+}
+
+let temperature1 = 35;
+let fromUnit1 = "celsius";
+let toUnit1 = "kelvin";
+
+let result1 = convertTemperature1(temperature1, fromUnit1, toUnit1);
+
+console.log(result1 + toUnit1);
+
+function convertTemperature2(temperature2, fromUnit2, toUnit2) {
+  if (fromUnit2 === "celsius" && toUnit2 === "celsius") {
+    return temperature2;
+  }
+}
+
+let temperature2 = 35;
+let fromUnit2 = "celsius";
+let toUnit2 = "celsius";
+
+let result2 = convertTemperature2(temperature2, fromUnit2, toUnit2);
+
+console.log(result2 + toUnit2);
+
+
+
+
+function convertTemperature3(temperature3, fromUnit3, toUnit3) {
+  if (fromUnit3 === "kelvin" && toUnit3 === "fahrenheit") 
+    return (temperature3 - 273.15) * 9/5 +32;
+ 
+}
+
+let temperature3 = 95;
+let fromUnit3 = "kelvin";
+let toUnit3 = "fahrenheit";
+
+let result3 = convertTemperature3(temperature3, fromUnit3, toUnit3);
+
+console.log(result3 + toUnit3);
+
+
+
+function convertTemperature4(temperature4, fromUnit4, toUnit4) {
+  if (fromUnit4 === "kelvin" && toUnit4 === "kelvin") {
+    return temperature4;
+  }
+}
+
+let temperature4 = 35;
+let fromUnit4 = "kelvin";
+let toUnit4 = "kelvin";
+
+let result4 = convertTemperature4(temperature4, fromUnit4, toUnit4);
+
+console.log(result4 + toUnit4);
+
+
+function convertTemperature5(temperature3, fromUnit5, toUnit5) {
+  if (fromUnit5 === "kelvin" && toUnit5 === "celsius") 
+    return (temperature5 - 273.15)
+ 
+}
+
+let temperature5 = 35;
+let fromUnit5 = "kelvin";
+let toUnit5 = "celsius";
+
+let result5= convertTemperature5(temperature5, fromUnit5, toUnit5);
+
+console.log(result5 + toUnit5 );
+
+
+function convertTemperature6(temperature6, fromUnit6, toUnit6) {
+  if (fromUnit6 === "fahreinheit" && toUnit6 === "fahreinheit") {
+    return temperature6;
+  }
+}
+
+let temperature6 = 35;
+let fromUnit6 = "fahreinheit";
+let toUnit6 = "fahreinheit";
+
+let result6 = convertTemperature6(temperature6, fromUnit6, toUnit6);
+
+console.log(result6 + toUnit6);
+
+
+
+function convertTemperature7(temperature7, fromUnit7, toUnit7) {
+    if (fromUnit7 === "fahrenheit" && toUnit7 === "celsius") {
+    return ((temperature7 - 32) * 5/9);
+  }
+}
+
+let temperature7 = 95;
+let fromUnit7 = "fahrenheit";
+let toUnit7 = "celsius";
+
+let result7 = convertTemperature7(temperature7, fromUnit7, toUnit7);
+
+console.log(result7 + toUnit7);
+
+
+function convertTemperature8(temperature8, fromUnit8, toUnit8) {
+    if (fromUnit8 === "fahrenheit" && toUnit8 === "kelvin") {
+    return (temperature - 32) * 5/9 + 273.15;
+  }
+}
+
+let temperature8 = 35;
+let fromUnit8 = "fahrenheit";
+let toUnit8 = "kelvin";
+
+let result8 = convertTemperature8(temperature8, fromUnit8, toUnit8);
+
+console.log(result8  + toUnit8);
+
+
+function convertTemperature9(temperature9, fromUnit9, toUnit9) {
+    if (fromUnit9 === "fahrenheit" && toUnit9 === "kelvin") {
+    return (temperature - 32) * 5/9 + 273.15;
+  }
+}
+
+let temperature9 = 35;
+let fromUnit9 = "degrees";
+let toUnit9 = "kelvin";
+
+let result9 = convertTemperature9(temperature9, fromUnit9, toUnit9);
+
+console.log(result9  + toUnit9);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
 </script>
 </body>
 </html>
